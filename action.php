@@ -1,13 +1,8 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Hello</title>
-</head>
 <body>
-<p>Welcome
-	<?php 
-	$Name = "Jonathan";
-	print $Name; ?>
-</p>
+
+Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
+
 </body>
 </html>
