@@ -17,7 +17,7 @@ if (is_resource($process)) {
 
     while($output = fgets($pipes[1]))
     {
-        echo $output . "<br>";
+        echo "The output is: " . $output . "<br>";
     }
     fclose($pipes[1]);
 
